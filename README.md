@@ -21,7 +21,7 @@ This is a single page task manager application built with React, TypeScript, and
 
 ## How to Run
 
-1. Clone the repository: `git clone <>`
+1. Clone the repository: `git clone https://github.com/anniekuusinen/task-manager.git`
 2. Install dependencies:
    - Backend: `cd task-manager-backend && npm install`
    - Frontend: `cd task-manager && npm install`
@@ -34,6 +34,6 @@ This is a single page task manager application built with React, TypeScript, and
 
 ## Additional Notes
 
-- The backend server runs on port 3001 by default.
+* The backend server runs on port 3001 by default.
 * The frontend development server runs on port 3000 by default.
 * Make sure both the backend and frontend servers are running before interacting with the application.
