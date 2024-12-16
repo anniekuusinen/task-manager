@@ -8,11 +8,10 @@ const getTasks = (req, res, next) => {
     try {
         // Shuffle the tasks randomly
         const shuffledTasks = tasks.tasks.sort(() => Math.random() - 0.5)
-        // Show the first 5 tasks
-        const randomTasks = shuffledTasks.slice(0, 5)
+        
         res.json({
             taskListName: tasks.taskListName,
-            tasks: randomTasks
+            tasks: shuffledTasks
         })
     } catch (err) {
         next(err)
