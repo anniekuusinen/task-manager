@@ -61,10 +61,7 @@ const TaskProvider: FunctionComponent<TaskProviderProps> = ({ children }) => {
     const updatedTasks = incompletedTasks.tasks.filter((t) => t.id !== taskId);
 
     // Update states
-    setIncompletedTasks((prev) => ({
-      ...incompletedTasks,
-      tasks: updatedTasks,
-    }));
+    setIncompletedTasks({ ...incompletedTasks, tasks: updatedTasks });
     setCompletedTasks((prevCompletedTask) => [
       ...prevCompletedTask,
       taskToMove,
