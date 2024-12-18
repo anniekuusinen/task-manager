@@ -50,31 +50,6 @@
             "id": "82883qjl-fj51-7162-6265v5q352x1",
             "name": "Task 10",
             "type": "polygon"
-        },
-        {
-            "id": "63724fsx-ko13-3443-2511p3u645e3",
-            "name": "Task 11",
-            "type": "rectangle"
-        },
-        {
-            "id": "85947xvx-dd53-4475-8552t8d777u7",
-            "name": "Task 12",
-            "type": "circle"
-        },
-        {
-            "id": "27550diq-vg65-1054-7516q9f051l1",
-            "name": "Task 13",
-            "type": "polygon"
-        },
-        {
-            "id": "21453bbc-pf62-6124-6862b4k464b0",
-            "name": "Task 14",
-            "type": "circle"
-        },
-        {
-            "id": "06919lne-rt37-7241-0077y5q158h4",
-            "name": "Task 15",
-            "type": "rectangle"
         }
     ]
 }
